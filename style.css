@@ -98,3 +98,45 @@ nav {
     padding: 10px 50px;
     align-self: center;
 } 
+
+@media (max-width : 800px) {
+    #hbd {
+        color: white;
+        font-size: 20px;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    
+    #name {
+        font-size: 40px;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    
+    .fullname {
+        font-size : 10px;
+    }
+
+    .nav-bar ul li {
+        padding: 5px;
+    }
+}
+
+@media (max-width : 420px) {
+    #hbd {
+        color: white;
+        font-size: 20px;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    
+    #name {
+        font-size: 20px;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+    
+    .fullname {
+        font-size : 10px;
+    }
+
+    .nav-bar ul li {
+        padding: 5px;
+    }
+}
