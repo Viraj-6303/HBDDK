@@ -116,7 +116,13 @@ nav {
     }
 
     .nav-bar ul li {
-        padding: 5px;
+        padding: 5px 10px;
+    }
+    
+    .nav-bar ul li img {
+    background-color: rgba(240, 248, 255, 0);
+    width: 40px;
+    height : 40px;
     }
 }
 
@@ -137,6 +143,12 @@ nav {
     }
 
     .nav-bar ul li {
-        padding: 5px;
+        padding: 5px 10px;
+    }
+    
+    .nav-bar ul li img {
+    background-color: rgba(240, 248, 255, 0);
+    width: 40px;
+    height : 40px;
     }
 }
